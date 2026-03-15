@@ -1,0 +1,20 @@
+name: Notify front of content update
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch update event to front
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.FRONT_DISPATCH_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/ultimate-rust/front/dispatches \
+            -d '{"event_type":"content-updated"}'
+
