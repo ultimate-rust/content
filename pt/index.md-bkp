@@ -1,0 +1,344 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+description: "Aprenda Rust em português, do zero ao avançado, com a profundidade que nenhum outro lugar teve coragem de oferecer."
+
+hero:
+  name: "Ultimate Rust"
+  text: "A Jornada Completa"
+  tagline: "Um guia completo para aprender Rust como sua primeira linguagem de programação."
+  image:
+    src: "/images/ferris/animated.gif"
+    alt: "Ultimate Ferris"
+  actions:
+    - theme: brand
+      text: Começar a Aprender →
+      link: /pt/before-we-start
+    - theme: alt
+      text: Saiba Mais
+      link: /pt/before-we-start/the-project
+
+# features:
+#   - icon: 🚀
+#     title: Feito para Iniciantes
+#     details: Explicações claras e progressivas, sem assumir conhecimento prévio de programação. Cada conceito é construído do zero com exemplos práticos.
+  
+#   - icon: 💻
+#     title: Projetos do Mundo Real
+#     details: Aprenda construindo aplicações reais, desde ferramentas de linha de comando até servidores web, consolidando o conhecimento na prática.
+#     # link: /pt/before-we-start
+#     # linkText: Começar agora
+  
+#   - icon: 📚
+#     title: Fundamentos Sólidos
+#     details: Entenda profundamente conceitos como ownership, borrowing e lifetimes através de analogias e exercícios guiados.
+#     #
+---
+<div class="urust-feature-section">
+
+  <div class="urust-feature-eyebrow">
+    <span>o projeto</span>
+  </div>
+
+  <div class="urust-feature-body">
+    <div class="urust-feature-bg-glyph" aria-hidden="true">fn</div>
+    <div class="urust-feature-stat">
+      <div class="urust-feature-num" data-count="0">0</div>
+      <div class="urust-feature-label">pré-requisitos</div>
+      <p class="urust-feature-desc">
+        Nenhuma experiência. Nenhuma base. Nenhum curso anterior.
+        Só a vontade de começar.
+      </p>
+    </div>
+    <div class="urust-feature-divider" aria-hidden="true"></div>
+    <div class="urust-feature-stat">
+      <div class="urust-feature-num">15</div>
+      <div class="urust-feature-label">idiomas</div>
+      <p class="urust-feature-desc">
+        O mesmo conteúdo, com a mesma profundidade,
+        para qualquer pessoa no mundo.
+      </p>
+    </div>
+    <div class="urust-feature-divider" aria-hidden="true"></div>
+    <div class="urust-feature-stat">
+      <div class="urust-feature-num" id="urust-members">_</div>
+      <div class="urust-feature-label">leitores</div>
+      <p class="urust-feature-desc">
+        Pessoas que já escolheram aprender Rust
+        do jeito que ele merecia ser ensinado.
+      </p>
+    </div>
+  </div>
+  <div class="urust-feature-ticker" aria-hidden="true">
+    <div class="urust-ticker-inner">
+      <span>Rust como primeira linguagem</span>
+      <span class="urust-ticker-dot">·</span>
+      <span>Do zero ao avançado</span>
+      <span class="urust-ticker-dot">·</span>
+      <span>Sem pular etapas</span>
+      <span class="urust-ticker-dot">·</span>
+      <span>100% gratuito para ler</span>
+      <span class="urust-ticker-dot">·</span>
+      <span>Open source</span>
+      <span class="urust-ticker-dot">·</span>
+      <span>Sem experiência necessária</span>
+      <span class="urust-ticker-dot">·</span>
+      <span>Rust como primeira linguagem</span>
+      <span class="urust-ticker-dot">·</span>
+      <span>Do zero ao avançado</span>
+      <span class="urust-ticker-dot">·</span>
+      <span>Sem pular etapas</span>
+      <span class="urust-ticker-dot">·</span>
+      <span>100% gratuito para ler</span>
+      <span class="urust-ticker-dot">·</span>
+      <span>Open source</span>
+      <span class="urust-ticker-dot">·</span>
+      <span>Sem experiência necessária</span>
+      <span class="urust-ticker-dot">·</span>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.urust-feature-section {
+  position: relative;
+  max-width: 100%;
+  margin: 24px auto 0;
+  padding: 0 24px 96px;
+  overflow: hidden;
+}
+
+/* ── Eyebrow ── */
+.urust-feature-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 56px;
+}
+.urust-feature-eyebrow::before,
+.urust-feature-eyebrow::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--vp-c-divider);
+}
+.urust-feature-eyebrow span {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-3);
+  white-space: nowrap;
+}
+
+/* ── Body ── */
+.urust-feature-body {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+}
+
+/* ── Background glyph ── */
+.urust-feature-bg-glyph {
+  position: absolute;
+  bottom: -32px;
+  right: -16px;
+  font-size: 18rem;
+  font-weight: 900;
+  font-family: 'Courier New', monospace;
+  line-height: 1;
+  background: -webkit-linear-gradient(120deg, #ce422b 30%, #eea059);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  opacity: 0.04;
+  pointer-events: none;
+  user-select: none;
+  letter-spacing: -8px;
+}
+
+/* ── Stat ── */
+.urust-feature-stat {
+  flex: 1;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.urust-feature-stat:first-of-type {
+  padding-left: 0;
+}
+.urust-feature-stat:last-of-type {
+  padding-right: 0;
+}
+
+.urust-feature-num {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -4px;
+  background: -webkit-linear-gradient(120deg, #ce422b 30%, #eea059);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-variant-numeric: tabular-nums;
+  transition: opacity 0.4s ease;
+}
+
+.urust-feature-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-3);
+  margin-top: -4px;
+}
+
+.urust-feature-desc {
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: var(--vp-c-text-2);
+  margin: 0;
+  max-width: 22ch;
+}
+
+/* ── Divider ── */
+.urust-feature-divider {
+  width: 1px;
+  align-self: stretch;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--vp-c-divider) 20%,
+    var(--vp-c-divider) 80%,
+    transparent
+  );
+  flex-shrink: 0;
+}
+
+/* ── Ticker ── */
+.urust-feature-ticker {
+  position: relative;
+  margin-top: 64px;
+  overflow: hidden;
+  border-top: 1px solid var(--vp-c-divider);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+.urust-feature-ticker::before,
+.urust-feature-ticker::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  z-index: 2;
+  pointer-events: none;
+}
+.urust-feature-ticker::before {
+  left: 0;
+  background: linear-gradient(to right, var(--vp-c-bg), transparent);
+}
+.urust-feature-ticker::after {
+  right: 0;
+  background: linear-gradient(to left, var(--vp-c-bg), transparent);
+}
+
+.urust-ticker-inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 14px 0;
+  width: max-content;
+  animation: urust-ticker 32s linear infinite;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--vp-c-text-3);
+}
+
+.urust-ticker-dot {
+  color: var(--vp-c-brand-1);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+@keyframes urust-ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+/* ── Entrance animation ── */
+.urust-feature-stat {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: urust-rise 0.6s ease forwards;
+}
+.urust-feature-stat:nth-child(2) { animation-delay: 0.15s; }
+.urust-feature-stat:nth-child(4) { animation-delay: 0.30s; }
+.urust-feature-stat:nth-child(6) { animation-delay: 0.45s; }
+
+@keyframes urust-rise {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Responsive ── */
+@media (max-width: 680px) {
+  .urust-feature-body {
+    flex-direction: column;
+    gap: 0;
+  }
+  .urust-feature-stat {
+    padding: 32px 0;
+    border-bottom: 1px solid var(--vp-c-divider);
+  }
+  .urust-feature-stat:last-of-type {
+    border-bottom: none;
+  }
+  .urust-feature-divider {
+    display: none;
+  }
+  .urust-feature-num {
+    font-size: 4rem;
+  }
+  .urust-feature-bg-glyph {
+    display: none;
+  }
+  .urust-feature-desc {
+    max-width: 100%;
+  }
+}
+</style>
+
+<script>
+;(function () {
+  const el = document.getElementById('urust-members')
+  if (!el) return
+
+  // Troca pelo número real quando tiveres dados
+  const TARGET = 2400
+
+  const run = () => {
+    const duration = 1600
+    const start = performance.now()
+    const tick = now => {
+      const p = Math.min((now - start) / duration, 1)
+      const ease = 1 - Math.pow(1 - p, 4)
+      el.textContent = Math.floor(ease * TARGET).toLocaleString('pt-BR')
+      if (p < 1) requestAnimationFrame(tick)
+    }
+    requestAnimationFrame(tick)
+  }
+
+  const obs = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting) { run(); obs.disconnect() }
+  }, { threshold: 0.3 })
+
+  obs.observe(el)
+})()
+</script>
