@@ -10,7 +10,7 @@ Este projeto é mais do que um projeto pessoal. É um recurso da comunidade, fei
 
 O Ultimate Rust está disponível publicamente no GitHub, e isso significa que ele pode evoluir com a ajuda de pessoas como você. Não importa se você encontrou um erro de digitação, tem uma sugestão de melhoria, quer propor um exemplo mais claro ou deseja adicionar um exercício novo. Toda contribuição é bem-vinda.
 
-Preciso ser honesto com você: este é meu primeiro livro. Isso significa que, por mais cuidado que eu tenha tomado ao escrevê-lo, é inevitável que existam erros de escrita, explicações que poderiam ser mais claras ou até mesmo conceitos que merecem ser expandidos. E está tudo bem. Faz parte do processo.
+Preciso ser sincero com você: este é meu primeiro livro. Isso significa que, por mais cuidado que eu tenha tomado ao escrevê-lo, é inevitável que existam erros de escrita, explicações que poderiam ser mais claras ou até mesmo conceitos que merecem ser expandidos. E está tudo bem. Faz parte do processo.
 
 É exatamente por isso que escolhi tornar este livro open-source. Para que ele não fique estagnado, mas continue melhorando com o tempo, com a ajuda de leitores que se importam.
 
@@ -18,19 +18,19 @@ Preciso ser honesto com você: este é meu primeiro livro. Isso significa que, p
 
 Você pode contribuir de várias maneiras, e todas elas são igualmente valiosas:
 
-**Corrigindo erros de escrita ou gramática.** Se você encontrar um erro de digitação, uma concordância errada ou qualquer problema gramatical, por favor, abra uma issue ou envie um pull request corrigindo. Não tenha receio de apontar erros pequenos. Eles importam.
+1) **Corrigindo erros de escrita ou gramática.** Se você encontrar um erro de digitação, uma concordância errada ou qualquer problema gramatical, por favor, [abra uma issue](https://github.com/ultimate-rust/content/issues/new) ou envie um pull request corrigindo. Não tenha receio de apontar erros pequenos. Eles importam.
 
-1) **Sugerindo melhorias nas explicações.** Se algum conceito não ficou claro para você, é bem provável que não tenha ficado claro para outras pessoas também. Abra uma issue explicando o que te confundiu e, se tiver uma sugestão de como melhorar, compartilhe. Isso ajuda o livro a se tornar mais didático.
+2) **Sugerindo melhorias nas explicações.** Se algum conceito não ficou claro para você, é bem provável que não tenha ficado claro para outras pessoas também. Abra uma issue explicando o que te confundiu e, se tiver uma sugestão de como melhorar, compartilhe. Isso ajuda o livro a se tornar mais didático.
 
-2) **Propondo novos exemplos ou exercícios.** Se você criou um exemplo que ilustra bem um conceito, ou se tem uma ideia de exercício que ajudaria os leitores a praticarem, compartilhe. Quanto mais variados forem os exemplos, melhor será a compreensão.
+3) **Propondo novos exemplos ou exercícios.** Se você criou um exemplo que ilustra bem um conceito, ou se tem uma ideia de exercício que ajudaria os leitores a praticarem, compartilhe. Quanto mais variados forem os exemplos, melhor será a compreensão.
 
-3) **Reportando problemas técnicos.** Se algum código do livro não funciona, se há algo desatualizado em relação à versão mais recente do Rust, ou se você encontrou algum problema de compatibilidade, por favor, reporte. Isso garante que o livro continue preciso e atualizado.
+4) **Reportando problemas técnicos.** Se algum código do livro não funciona, se há algo desatualizado em relação à versão mais recente do Rust, ou se você encontrou algum problema de compatibilidade, por favor, reporte. Isso garante que o livro continue preciso e atualizado.
 
-4) **Adicionando conteúdo novo.** Se você sente que falta algum tópico, ou que algum capítulo poderia se beneficiar de uma seção adicional, você pode propor a adição. Discutiremos juntos como integrar isso da melhor forma.
+5) **Adicionando conteúdo novo.** Se você sente que falta algum tópico, ou que algum capítulo poderia se beneficiar de uma seção adicional, você pode propor a adição. Discutiremos juntos como integrar isso da melhor forma.
 
 ## Como Fazer Sua Contribuição
 
-O processo é simples e segue o padrão de contribuição open-source no GitHub. Você encontrará o repositório do livro em [github.com/richarddalves/ultimate-rust](https://github.com/richarddalves/ultimate-rust).
+O processo é simples e segue o padrão de contribuição open-source no GitHub. Você encontrará o repositório do livro em [github.com/ultimate-rust/content](https://github.com/ultimate-rust/content).
 
 A regra é clara e descomplicada: se você encontrou algo que precisa ser corrigido ou melhorado, você tem duas opções.
 

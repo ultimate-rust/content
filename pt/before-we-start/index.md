@@ -10,7 +10,7 @@ Antes de você embarcar, deixa eu te explicar por que o Ultimate Rust foi constr
 
 ## Quem Sou Eu
 
-Meu nome é Richard Alves. Sou um daqueles desenvolvedores que quer deixar o código mais otimizado possível. Resolver algo da forma mais perfomática possível, mais segura possível. Prefiro demorar mais para construir algo já pensando na sua escabilidade futura do que construir rápido apenas para dizer que fez.
+Meu nome é Richard Alves. Sou um daqueles desenvolvedores que querem deixar o código o mais otimizado possível. Resolver algo da forma mais perfomática possível, mais segura possível. Prefiro demorar mais para construir algo já pensando na sua escabilidade futura do que construir rápido apenas para dizer que fez.
 
 Sei que isso não é exatamente uma qualidade, mas foi o que me fez conhecer Rust.
 
@@ -24,21 +24,21 @@ Me apaixonei logo de cara também, e num nível bem maior. A partir daquele mome
 
 ### Rust: A Linguagem Perfeita?
 
-Com o tempo, fui percebendo que Rust não era apenas uma linguagem mais rápida, mais segura ou mais rígida. Era uma forma completamente nova de pensar ao escrever um código. Um jeito de escrever código que não te deixa trapacear, não te permite fechar os olhos para **~~erros~~** detalhes que, cedo ou tarde, iriam explodir na sua cara em qualquer outra linguagem.
+Com o tempo, fui percebendo que Rust não era só uma linguagem mais rápida, mais segura ou mais rígida, como vi em todos lugares que pesquisei. Era uma forma completamente nova de pensar ao escrever um código. Um jeito de escrever código que não te deixa fazer gambiarra, não te permite fechar os olhos para **~~erros~~** detalhes que, cedo ou tarde, iriam explodir na sua cara em qualquer outra linguagem.
 
-De repente, eu não estava mais só "escrevendo código que funciona". Eu estava escrevendo código que *não poderia quebrar silenciosamente*, que me dava garantias que eu nem sabia que precisava. Nada do tipo "está funcionando e nem sei como" ou pior, "NÃO está funcionando e nem sei como"
+De repente, eu não estava "só programando". Eu estava escrevendo código que *não poderia quebrar silenciosamente*, que me dava garantias que eu nem sabia que precisava. Nada do tipo "está funcionando e nem sei como" ou pior, "NÃO está funcionando e nem sei como".
 
 A sensação de compilar algo em Rust é como entregar um trabalho que passou por um exército de professores: não sai dali nada frouxo, nada improvisado, nada "depois eu arrumo".
 
-E isso muda você.
+Pode parecer estranho dizer isso - ainda mais sendo sobre uma linguagem de programação - mas isso muda você.
 
-Você passa a enxergar cada variável como algo vivo. Cada referência como uma promessa. Cada erro do borrower checker como um professor dizendo: "Ei, você pode fazer melhor. Você *sabe* que pode fazer melhor."
+Você passa a enxergar cada variável no seu código como algo vivo. Cada referência como uma promessa. Cada erro do borrower checker (compilador do Rust) como um professor dizendo: "Ei, você pode fazer melhor. Você *sabe* que pode fazer melhor."
 
-É estranho dizer isso, mas Rust me ensinou disciplina.
+Também é estranho dizer isso, mas Rust vai te ensinar disciplina. Pelo menos a mim, ensinou.
 
-Me ensinou a tratar memória com respeito. Me ensinou que perfomance não é um detalhe, é uma responsabilidade. E, principalmente, me ensinou que escrever um programa é muito mais que juntar linhas de código. É construir algo que outra pessoa vai ler, entender, confiar e expandir.
+Me ensinou a tratar memória com respeito. Me ensinou que perfomance não é um detalhe, é uma responsabilidade minha. E, principalmente, me ensinou que escrever um programa é muito mais que juntar linhas de código. É construir algo que outra pessoa vai ler, entender, confiar e expandir.
 
-E quanto mais eu aprendia, mais eu percebia uma verdade incômoda: se eu pudesse reescrever tudo o que eu fiz no passdo em Rust, eu reescreveria. Não por vaidade, mas porque Rust desperta um padrão de excelência, deixa melhor o produto que outras pessoas usarão.
+E quanto mais eu aprendia, mais eu percebia uma verdade incômoda: se eu pudesse reescrever tudo o que eu fiz no passado em Rust, eu reescreveria. Não por vaidade, mas porque Rust desperta um padrão de excelência, deixa melhor o produto que outras pessoas usarão.
 
 Rust não é só uma linguagem. É um compromisso.
 
@@ -56,3 +56,6 @@ Embora eu já tivesse tido contato com programação, nunca tinha desenvolvido u
 
 Precisei usar vários recursos simultaneamente: O próprio Rust Book (do qual recomendo a todos), cursos na Udemy, vídeos no YouTube e IAs para me explicarem e tornarem as explicações mais didáticas e adaptadas para alguém sem experiência completa. Foi um processo fragmentado, casativo e muitas vezes confuso.
 
+::: info
+Continua na próxima seção [sobre o projeto](the-project.md).
+:::
