@@ -1,6 +1,9 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+# content/en/index.md
+
 layout: home
+description: "Learn Rust from scratch to advanced - with the depth no one else had the courage to offer."
+
 hero:
   name: "Ultimate Rust"
   text: "The Complete Journey"
@@ -10,12 +13,11 @@ hero:
     alt: "Ultimate Ferris"
   actions:
     - theme: brand
-      text: Start Learning →
-      link: /before-we-start
+      text: Get Started →
+      link: /en/before-we-start
     - theme: alt
-      text: Learn More
-      link: /before-we-start/the-project
-
+      text: About the Project
+      link: /en/before-we-start/the-project
 ---
 
 <HomeStats
@@ -25,7 +27,7 @@ hero:
     {
       value: '100%',
       label: 'free to read',
-      description: 'All content accessible without registration and without a paywall. Always.',
+      description: 'All content available with no sign-up and no paywall. Always.',
       highlightNumber: true,
       highlightBorder: true,
     },
@@ -33,7 +35,7 @@ hero:
       value: 'auto:members',
       animated: true,
       label: 'registered Rustaceans',
-      description: 'People who have already chosen to learn it the way it always deserved to be taught.',
+      description: 'People who decided to learn Rust the way it always deserved to be taught.',
       highlightNumber: true,
       highlightBorder: true,
     },
@@ -43,9 +45,9 @@ hero:
       description: 'No experience. No background. Just the will to start.',
     },
     {
-      value: 'auto:days',
-      label: 'days building',
-      description: 'and it’s still nowhere near being complete.',
+      value: '∞',
+      label: 'projects you can build',
+      description: 'The language will not be your limit.',
       highlightNumber: true,
     },
   ]"

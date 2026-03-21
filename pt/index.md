@@ -1,4 +1,6 @@
 ---
+# content/pt/index.md
+
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 description: "Aprenda Rust em português, do zero ao avançado, com a profundidade que nenhum outro lugar teve coragem de oferecer."
