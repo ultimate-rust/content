@@ -34,7 +34,7 @@ hero:
     {
       value: 'auto:members',
       animated: true,
-      'မှတ်ပုံတင်ထားသော ရပ်တေးရှင်များ',
+      label: 'မှတ်ပုံတင်ထားသော ရပ်တေးရှင်များ',
       description: 'Rust ကို အမြဲသင်ကြားသင့်သည့်နည်းဖြင့် သင်ယူရန် ဆုံးဖြတ်ခဲ့သောသူများ။',
       highlightNumber: true,
       highlightBorder: true,
