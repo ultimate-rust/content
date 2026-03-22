@@ -24,7 +24,7 @@ O tempo ocioso entre programas caiu drasticamente. A IBM percebeu o potencial im
 
 Mas o processamento em lote resolvia apenas uma parte do problema. Quando um programa começava a rodar, ele ainda tomava o computador inteiro para si. Todos os outros programas da fila precisavam esperar. Todos os outros pesquisadores precisavam esperar. E se um cálculo levasse horas, horas era o tempo que todo o resto ficava parado.
 
-Havia uma pergunta que começava a incomodar cada vez mais pessoas: por que um computador capaz de executar bilhões de operações por segundo precisava ficar preso num único programa de cada vez?
+Havia uma pergunta que começava a incomodar cada vez mais pessoas: por que um computador capaz de executar milhares de operações por segundo precisava ficar preso num único programa de cada vez?
 
 ---
 
