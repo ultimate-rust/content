@@ -39,7 +39,7 @@ As vídeo-aulas são gravadas por mim e estão disponíveis apenas na versão em
 
 > A resposta curta é: os três, ao mesmo tempo.
 
-O Ultimate Rust é open-source. O código-fonte do site e o conteúdo escrito estão disponíveis publicamente no GitHub. Qualquer pessoa pode ler, sugerir melhorias e contribuir. Mas open-source não significa gratuito, e preciso ser transparente sobre isso.
+O Ultimate Rust é open-source. O código-fonte do site e o conteúdo escrito estão disponíveis publicamente no GitHub. Qualquer pessoa pode ler, sugerir melhorias e contribuir. Mas open-source não significa gratuito, e precisamos conversar sobre isso.
 
 Manter este projeto online tem custos reais: hospedagem, domínios, ferramentas, e principalmente tempo. MUITO tempo. Cada aula escrita, cada vídeo gravado, cada exercício elaborado representa horas de trabalho dedicado a fazer isso da melhor forma possível.
 

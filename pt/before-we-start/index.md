@@ -30,7 +30,7 @@ De repente, eu não estava "só programando". Eu estava escrevendo código que *
 
 A sensação de compilar algo em Rust é como entregar um trabalho que passou por um exército de professores: não sai dali nada frouxo, nada improvisado, nada "depois eu arrumo".
 
-Pode parecer estranho dizer isso - ainda mais sendo sobre uma linguagem de programação - mas isso muda você.
+Pode parecer estranho dizer isso, ainda mais sendo sobre uma linguagem de programação, mas você muda até a forma de pensar enquanto programa.
 
 Você passa a enxergar cada variável no seu código como algo vivo. Cada referência como uma promessa. Cada erro do borrower checker (compilador do Rust) como um professor dizendo: "Ei, você pode fazer melhor. Você *sabe* que pode fazer melhor."
 
@@ -54,7 +54,7 @@ Quando decidi mergulhar de cabeça em Rust, me deparei com muitos obstáculos fr
 
 Embora eu já tivesse tido contato com programação, nunca tinha desenvolvido um projeto com complexidade suficiente para sentir que me encaixava nesses requisitos. Fiquei preso entre ser "iniciante demais" para os recursos existentes e "experiente demais" para desistir.
 
-Precisei usar vários recursos simultaneamente: O próprio Rust Book (do qual recomendo a todos), cursos na Udemy, vídeos no YouTube e IAs para me explicarem e tornarem as explicações mais didáticas e adaptadas para alguém sem experiência completa. Foi um processo fragmentado, casativo e muitas vezes confuso.
+Precisei usar vários recursos simultaneamente: O próprio Rust Book (do qual recomendo a todos), cursos na Udemy, vídeos no YouTube e IAs para me explicarem e tornarem as explicações mais didáticas e adaptadas para alguém sem experiência completa. Foi um processo fragmentado, cansativo e muitas vezes confuso.
 
 ::: info
 Continua na próxima seção [sobre o projeto](the-project.md).
