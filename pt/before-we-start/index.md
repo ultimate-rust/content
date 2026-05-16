@@ -10,7 +10,7 @@ Antes de você embarcar, deixa eu te explicar por que o Ultimate Rust foi constr
 
 ## Quem Sou Eu
 
-Meu nome é Richard Alves. Sou um daqueles desenvolvedores que querem deixar o código o mais otimizado possível. Resolver algo da forma mais perfomática possível, mais segura possível. Prefiro demorar mais para construir algo já pensando na sua escabilidade futura do que construir rápido apenas para dizer que fez.
+Meu nome é Richard Alves. Quando comecei a programar, eu era um daqueles desenvolvedores que sempre querem deixar o código o mais otimizado possível. Resolver algo da forma mais perfomática possível, mais segura possível. Eu preferia demorar mais para construir algo já pensando na sua escabilidade futura do que construir rápido apenas para dizer que fez.
 
 Sei que isso não é exatamente uma qualidade, mas foi o que me fez conhecer Rust.
 
