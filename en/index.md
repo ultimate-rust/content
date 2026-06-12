@@ -14,10 +14,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started →
-      link: /en/before-we-start
+      link: /before-we-start
     - theme: alt
       text: About the Project
-      link: /en/before-we-start/the-project
+      link: /before-we-start/the-project
 ---
 
 <HomeStats
