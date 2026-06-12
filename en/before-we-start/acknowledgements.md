@@ -1,12 +1,18 @@
+---
+description: "Thanks to the Rust community, to the readers, and to everyone who contributed to making Ultimate Rust possible."
+---
+
 # Acknowledgements
 
-I am grateful to the Rust community for creating such a fascinating and welcoming language. I am grateful to everyone who, in some way, contributed to making this project come to life.
+I thank the Rust community for creating such a fascinating and welcoming language. I thank everyone who, in one way or another, helped this project get off the ground.
 
-And I am grateful to every person who has already contributed or who will still contribute to this project. You are part of this story. This is an open-source project, alive and constantly evolving. Every fix, every suggestion, every improvement you propose will make this project even better for the entire community. All contributors are recognized on the [Contributors](/en/contributors) page.
+And I thank every person who has already contributed, or who still will, to this project. You are part of this story. This is an open-source project, alive and constantly evolving. Every fix, every suggestion, every improvement you propose will make this project even better for the whole community.
 
-And I am especially grateful to you, the reader, for embarking on this journey with me.
+And above all, I thank you, the reader, for joining me on this journey.
 
 Rust will transform the way you think about programming. Enjoy every moment of this discovery.
+
+Some lessons cost too much to be forgotten. 256.
 
 **Welcome to Ultimate Rust.**
 
