@@ -35,7 +35,7 @@ hero:
       value: 'auto:members',
       animated: true,
       label: 'registered Rustaceans',
-      description: 'People who decided to learn Rust the way it always deserved to be taught.',
+      description: '(The number is not yet accurate.) People who decided to learn Rust the way it always deserved to be taught.',
       highlightNumber: true,
       highlightBorder: true,
     },
